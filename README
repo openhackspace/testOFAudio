@@ -1,0 +1,51 @@
+openFrameworks
+	- vad är oF?
+		* ett c++ toolkit
+		* open source
+		* gratis
+	- vad är oF inte
+		* ett program med gui
+		* ett programeringsspråk
+	- fördelar
+		* arbeta parallellt ljud och video
+		* stöd för alla stora OS, även mobila:
+			- OS X
+			- Windows
+			- Linux
+			- iOS
+			- Android
+		* tillgång till den största kodbasen i världen (c/c++)
+		* addons! - www.ofxaddons.com
+		* rikt forum
+	- nackdelar
+		* kräver grundläggande programmeringskunskaper
+			(erfarenhet i t.ex.: Java, Objective-C, skriptspråk (js,bash,cmd) samt
+			 SuperCollider (delvis) kan va bra att ha.)
+		* DIY på gott och ont
+		* dokumentation sisådär
+	- komma igång
+		* bra c++ tutorials:
+			thenewboston (youtube) - "C++ Programming Tutorials Playlist"
+		* bra openFrameworks-tutorials:
+			http://www.slideshare.net/beckystewart/a-gentle-introduction-to-openframeworks
+		* IDE:
+			- Xcode (OS X)
+			- Code::Blocks (Windows, Linux)
+			- Eclipse (för Android)
+		* www.openframeworks.cc/download
+		* Övrigt bra att ha:
+			- STK (Synthesis ToolKit) https://ccrma.stanford.edu/software/stk/
+			- ofxFft (kylemcdonald) - www.ofxaddons.com/repos383
+			- ofxPd
+	- workflow
+		* första att göra efter installation är att testa att kompilera ett eller flera exempelprojekt.
+			exempelprojekten följer med installationen och om allt är länkat korrekt så ska dom byggas utan problem.
+				- funkar det inte? se till att openGL samt de statiska biblioteket openFrameworks (.lib eller .so) är länkat under globala kompilatorinställningar
+		* för att göra ett nytt projekt, kopiera emptyExample mappen från examples/empty och klistra in i en egen mapp
+			vill du bygga på ett annat av exempelprojekten, kopiera den istället.
+		* döp om projektfilerna till vad du vill, du bör lämna .h och .cpp-filerna under /src som dom är
+		* slå upp funktioner i källfilerna, oF-koden är oftast välkommenterad och strukturen tydlig.
+		* specifika tutorials på t.ex. ljuddelen finns på www.slideshare.net sök på openFrameworks.
+	- kolla in
+		* Kyle McDonald www.kylemcdonald.net
+		* MIDAS project (youtube)
